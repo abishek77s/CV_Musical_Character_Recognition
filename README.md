@@ -27,8 +27,7 @@ To use this system, please follow the instructions below:
 ### Usage
 1. Place your music sheet images in the `music_sheets` directory.
 2. Run the main script with `python music_sheet_recognizer.py`. To change the current file being read or to add a new one, simply change the `sheet_music` variable within main.py and ensure the file is present at the expected path (`music_sheets/YOUR_FILE_HERE` if following these instructions exactly) pointed to by the referenced variable.
-3. The analyzed MIDI files will be saved in the `output_midi` directory.
-4. Use any standard MIDI player to listen to the output.
+3. The project will then run and play the outputted result automatically. Any of the desired images used to generate the output can be shown based on the `show_img_dict`. `img_details_size` may also be changed between "small", "medium", and "large" to attempt to further increase accuracy on a larger amount of images.
 
 ## License
 This project is licensed under the MIT License.
