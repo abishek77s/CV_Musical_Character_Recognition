@@ -1,7 +1,7 @@
 import math
 import cv2 as cv
 
-from CV_Final_Project_Musical_Character_Recognition.python_files import sift_calculations
+from python_files import sift_calculations
 
 
 def get_distance(pt1, pt2):

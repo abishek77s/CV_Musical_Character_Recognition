@@ -1,11 +1,11 @@
+
 import time
 import cv2 as cv
 from playsound import playsound
 
-from CV_Final_Project_Musical_Character_Recognition.python_files \
-    import object_identification, image_manipulation, draw
-from CV_Final_Project_Musical_Character_Recognition.python_files.data_types.Stave import Stave
-from CV_Final_Project_Musical_Character_Recognition.python_files.image_manipulation import cleanup_image
+from python_files import object_identification, image_manipulation, draw
+from python_files.data_types.Stave import Stave
+
 
 
 def sort_notes(staves_populated):

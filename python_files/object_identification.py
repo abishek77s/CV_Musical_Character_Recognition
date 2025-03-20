@@ -5,14 +5,14 @@ import numpy as np
 import math
 import copy
 
-from CV_Final_Project_Musical_Character_Recognition.python_files.data_types.Accidental import Accidental
-from CV_Final_Project_Musical_Character_Recognition.python_files.data_types.Beam import Beam
-from CV_Final_Project_Musical_Character_Recognition.python_files.data_types.Note import Note
-from CV_Final_Project_Musical_Character_Recognition.python_files.data_types.Rest import Rest
-from CV_Final_Project_Musical_Character_Recognition.python_files.image_manipulation import cleanup_image
-from CV_Final_Project_Musical_Character_Recognition.python_files.processing_utils import get_distance, \
+from python_files.data_types.Accidental import Accidental
+from python_files.data_types.Beam import Beam
+from python_files.data_types.Note import Note
+from python_files.data_types.Rest import Rest
+from python_files.image_manipulation import cleanup_image
+from python_files.processing_utils import get_distance, \
     find_best_match_for_image
-from CV_Final_Project_Musical_Character_Recognition.python_files import processing_utils
+from python_files import processing_utils
 
 # CODE SNIPPET TAKEN FROM https://www.pyimagesearch.com/2015/04/06/zero-parameter-automatic-canny-edge-detection-with-python-and-opencv/
 # THIS IS NOT MY CODE, applies sigma parameter to auto create lower and upper bounds of Canny edge detector and returns
